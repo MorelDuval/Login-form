@@ -1,0 +1,61 @@
+body{
+    background-image: url(download\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+/* This is to style my contentsnin my main class */
+.main{
+    background-image: url(silver-metal-cross-logo-abstract-religious-symbol-91267202.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: solid black;
+    gap: 5xpx;
+    font-weight: bold;
+    opacity: 0.6;
+    margin-top: 45px;
+    padding: auto;
+    color: aliceblue;
+    width: 380px;
+    place-items: center;
+    height: auto;
+}
+
+/* This is to style my input boxes */
+input{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+h1, h3{
+    text-align: center;
+}
+
+.main-row{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+button{
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 10px 5px red;
+    width: 100px;
+}
+p{
+    text-align: center;
+}

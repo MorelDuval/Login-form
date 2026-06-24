@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<form class="main1">
+			<h1>Login Form</h1>
+<p><label for="Name">Full Name</label></p>
+	<input class="username" type="text" placeholder="Full Name" label="Name">
+	<p><label for="email address">Email</label></p>
+	<input type="text" placeholder="Email@gmail.com">
+<p><label for="password">Password</label>
+	<input class="password" type="password" placeholder="Password">
+<p><label for="Phone number">Phone number</label></p>
+	<input type="number" placeholder="Number">
+<p><label for="Age">Age</label></p>
+	<input type="number" placeholder="Age">
+<p><label for="Experience">Experience</label></p>
+	<input type="range" width="200px" min="0" max="50" placeholder="Experience">
+<p><label for="date of birth">Date of Birth</label></p>
+	<input type="date" placeholder="Date of Birth">
+
+	<div class="main-row">
+	<h3>Sex</h3>
+<div class="row"><label for="male">Male</label><input type="checkbox"> or <label for="Female">Female</label> <input type="checkbox"> <label for="Other">Something else</label> <input type="checkbox"></div>
+</div> 
+<p><button type="submit">Login</button></p>
+			</form>
+	</div>
+	
+<script>
+	const form = document.querySelector(".main1");
+	form.addEventListener("submit", function (e) 
+	{
+		e.preventDefault();
+		let username = document.querySelector(".username").value;
+	    let password = document.querySelector(".password").value;
+
+		if (username === password) {
+			alert("congratulations!");
+		}else {
+			alert("Try again.");
+		}
+	});
+</script>
+</body>
+<!-- Assigment: in the html create a paragraph and a heading using html and
+ Using javascript, write the 15x table inside that paragragh -->
