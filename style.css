@@ -1,3 +1,4 @@
+/* This is to style my entire body */
 body{
     background-image: url(download\ \(2\).jpg);
     background-position: center;
@@ -8,7 +9,7 @@ body{
     
     
 }
-/* This is to style my contentsnin my main class */
+/* This is to style my content in my main class */
 .main{
     background-image: url(silver-metal-cross-logo-abstract-religious-symbol-91267202.jpg);
     background-position: center;
@@ -35,6 +36,7 @@ input{
     height: auto;
     border-radius: 15px;
 }
+/* This is to style my different headings */
 h1, h3{
     text-align: center;
 }
@@ -50,7 +52,7 @@ h1, h3{
     justify-items: center;
     gap: 10px;
 }
-
+/* This is to style my login button */
 button{
     border-radius: 10px 5px 10px 5px;
     box-shadow: 10px 5px red;
